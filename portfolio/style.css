@@ -1,47 +1,74 @@
+:root{
+    --darkblue:  rgb(49, 52, 61);
+    --lightblue: rgb(146, 204, 205);
+    --bodytext: rgb(68, 88, 118);
+}
+
+h1{
+    font-weight: 700;
+    font-size: 50px;
+}
 header{
     display: flex;
     padding: 20px;
     text-align: center;
-    background: #13293d;
-    color: #13293d;
+    background: var(--darkblue);
+    color: var(--darkblue);
 }
 div h1{
     text-align: justify;
-    font-weight: 700;
-    font-size: 50px;
     position: relative;
-    border-left: 90px solid rgb(36, 74, 199);
+    border-left: 90px solid var(--lightblue);
     padding: 15px;
-    background-color: rgb(36, 74, 199);
+    background-color: var(--lightblue);
     left: -50px;
     
 }
 
-div ul li{
+nav ul li{
     font-weight: 600;
     font-size: 200%;
     padding: 25px;
     display: inline-block;
-    color: rgb(36, 74, 199);
+    color: var(--lightblue);
 }
 a{
-    color: rgb(36, 74, 199);
+    color: var(--lightblue);
+}
+body{
+    color: var(--bodytext);
+    
 }
 .link{
     margin-left: auto;
     
 }
 .Landscape{
-    position: relative;
+    position: inline-block;
     text-align: center;
-    color: #13293d;
+    color: var(--darkblue);
 }
 .subtitle{
+    display: flex;
     position: absolute;
     padding: 10px;
-    top: 75%;
+    top: 60%;
     right: 5%;
     z-index: 100;
     font-size: 30px;
-    background-color:rgb(36, 74, 199) ;
+    background-color:var(--lightblue) ;
+}
+.nav_header{
+    padding-top: 1%;
+    text-align: right;
+    width: 15%;
+}
+
+
+@media screen and (max-width: 800px){
+    .nav_header{
+        width: 100%;
+        text-align: center;
+    }
+    
 }
