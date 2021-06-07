@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    background: #13293d;
+    color: #13293d;
+}
+div h1{
+    text-align: justify;
+    font-weight: 700;
+    font-size: 50px;
+    position: relative;
+    border-left: 90px solid rgb(36, 74, 199);
+    padding: 15px;
+    background-color: rgb(36, 74, 199);
+    left: -50px;
+    
+}
+
+div ul li{
+    font-weight: 600;
+    font-size: 200%;
+    padding: 25px;
+    display: inline-block;
+    color: rgb(36, 74, 199);
+}
+a{
+    color: rgb(36, 74, 199);
+}
+.link{
+    margin-left: auto;
+    
+}
+.Landscape{
+    position: relative;
+    text-align: center;
+    color: #13293d;
+}
+.subtitle{
+    position: absolute;
+    padding: 10px;
+    top: 75%;
+    right: 5%;
+    z-index: 100;
+    font-size: 30px;
+    background-color:rgb(36, 74, 199) ;
+}
