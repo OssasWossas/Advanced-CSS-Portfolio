@@ -77,24 +77,32 @@ body{
     margin-top: 1%;
     width: auto;
     align-items: center;
-    padding: 20px;
+    padding: 2%;
     border-left: solid var(--bodytext) 10px;
     overflow: hidden;
 }
-.image_main{
-width: 100%;
-border-left: solid var(--bodytext);
+#Work{
+    width: auto;
+    align-items: center;
+    padding: 2%;
+    border-left: solid var(--bodytext) 10px;
+    overflow: hidden;
 }
-#bigimage{
-    
-    width: 50%;
-    height: 50px;
-
+#big{
+    width: 100%;
 }
-.images{
-
-}
-
+.products {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    background-color: var(--lightblue);
+    border-width: 1px;
+    margin: 5px;
+    padding: 5px;
+    flex: 0 0 400px;
+  }
 
 @media screen and (max-width: 800px){
     .nav_header{
