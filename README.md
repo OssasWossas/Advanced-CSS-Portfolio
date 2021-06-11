@@ -4,7 +4,7 @@ Here is the replication of the webpage decribeded in the homework. If there are 
 
 ![Website Preview](./Assets/preview.png)
 
-![Hosted Website](https://ossaswossas.github.io/Advanced-CSS-Portfolio/) 
+[Hosted Website](https://ossaswossas.github.io/Advanced-CSS-Portfolio/) 
 
 ## Acceptance Criteria
 ```
