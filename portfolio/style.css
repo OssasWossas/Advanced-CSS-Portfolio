@@ -8,6 +8,10 @@ h1{
     font-weight: 700;
     font-size: 50px;
 }
+h2{
+    font-weight: 700;
+    font-size: 30px;
+}
 header{
     display: flex;
     padding: 20px;
@@ -96,14 +100,21 @@ body{
     display: flex;
     flex-wrap: wrap;
   }
-  .card {
+.card {
+    position: relative;
     background-color: var(--lightblue);
     border-width: 1px;
     margin: 5px;
     padding: 5px;
     flex: 0 0 400px;
   }
-
+.caption{
+    padding: 1%;
+    position: absolute;
+    bottom: 20%;
+    z-index: 1000;
+    background-color: var(--lightblue);
+}
 @media screen and (max-width: 800px){
     .nav_header{
         width: 100%;
