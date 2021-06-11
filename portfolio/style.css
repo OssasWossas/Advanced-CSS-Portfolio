@@ -19,6 +19,9 @@ header{
     background: var(--darkblue);
     color: var(--darkblue);
 }
+footer{
+    padding-top: 10px;
+}
 div h1{
     text-align: justify;
     position: relative;
@@ -28,7 +31,9 @@ div h1{
     left: -50px;
     
 }
-
+a{
+    color: var(--lightblue);
+}
 nav ul li{
     font-weight: 600;
     font-size: 200%;
@@ -36,16 +41,25 @@ nav ul li{
     display: inline-block;
     color: var(--lightblue);
 }
-a{
-    color: var(--lightblue);
-}
 body{
     color: var(--bodytext);
     
 }
+.Work a{
+    color: var(--bodytext);
+}
+/*header class for all the subject title thingy mabobs*/
+.nav_header{
+    display: inline-block;
+    padding-top: 1%;
+    text-align: right;
+    float: left;
+    width: 15%;
+    margin-right: 1%;
+}
+/* Header with the links and the landscape photo */
 .link{
     margin-left: auto;
-    
 }
 .Landscape{
     position: relative;
@@ -62,17 +76,7 @@ body{
     font-size: 30px;
     background-color:var(--lightblue) ;
 }
-.about_div{
-    width: 100%;
-}
-.nav_header{
-    display: inline-block;
-    padding-top: 1%;
-    text-align: right;
-    float: left;
-    width: 15%;
-    margin-right: 1%;
-}
+/* About Me section */
 .about_main{
     width: 100%;
     padding-bottom: 1%;
@@ -85,22 +89,24 @@ body{
     border-left: solid var(--bodytext) 10px;
     overflow: hidden;
 }
-#Work{
+/*  Work Section with the Pictures and all them stuff & Contact Me form*/
+.Work{
     width: auto;
     align-items: center;
     padding: 2%;
     border-left: solid var(--bodytext) 10px;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 #big{
     width: 100%;
 }
-.products {
+.container {
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
   }
-.card {
+.pic_with_link {
     position: relative;
     background-color: var(--lightblue);
     border-width: 1px;
@@ -114,6 +120,12 @@ body{
     bottom: 20%;
     z-index: 1000;
     background-color: var(--lightblue);
+}
+.pic_with_link img{
+    filter: opacity(0.40);
+}
+.pic_with_link img:hover{
+    filter: opacity(1);
 }
 @media screen and (max-width: 800px){
     .nav_header{
